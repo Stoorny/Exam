@@ -1,0 +1,64 @@
+body{
+    perspective: 3000px;
+}
+.btn{
+    top:30%;
+    left: 70%;
+    position: static;
+    width: 200px;
+}
+.card-body{
+    text-align: left;
+}
+.cardb{
+    width: 40%;
+    height: 350px;
+    position: absolute;
+    top: 30%;
+    left: 4%;
+    text-align: center;
+    z-index: 1;
+    overflow: hidden;
+    box-shadow: 5px 6px 5px #7c6b6b;
+    transform:  translateZ(-200px) rotateY(45deg);
+}
+#bt1:hover + #card1{
+    z-index: 2;
+    transition-duration: 1s;
+    transform: translateZ(0px) translateX(30%) rotateY(0deg);
+}
+#bt2:hover + #card2{
+    z-index: 2;
+    transition-duration: 1s;
+    transform: translateZ(0px) translateX(30%) rotateY(0deg);
+}
+#bt3:hover + #card3{
+    z-index: 2;
+    transition-duration: 1s;
+    transform: translateZ(0px) translateX(30%) rotateY(0deg);
+}
+#card1{
+    top: 26%;
+    left: 10%;
+}
+#card1:hover{
+    z-index: 2;
+    transition-duration: 1s;
+    transform: translateZ(0px) translateX(30%) rotateY(0deg);
+}
+#card2{
+    top: 28%;
+    left: 7%;
+}
+#card2:hover{
+    z-index: 2;
+    transition-duration: 1s;
+    transform: translateZ(0px) translateX(30%) rotateY(0deg);
+}
+#card3:hover{
+    z-index: 2;
+    transition-duration: 1s;
+    transform: translateZ(0px) translateX(30%) rotateY(0deg);
+}
+  
+  

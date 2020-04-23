@@ -4,7 +4,6 @@ body{
 .btn{
     top:30%;
     left: 70%;
-    position: static;
     width: 200px;
 }
 .card-body{
